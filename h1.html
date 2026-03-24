@@ -3,57 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery Store</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 15px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <table border="1"  target= "_blank"cellspacing="10px" cellpadding="10px">
+
+    <h1>Grocery Store</h1>
+
+    <table>
         <tr>
-            <th colspan="4"> Glocery</th>
+            <td>
+                <div class="card">
+                    <a href="https://www.bigbasket.com/" target="_blank">
+                        <img src="https://www.bbassets.com/media/uploads/p/m/10000067_27-fresho-capsicum-green.jpg">
+                    </a>
+                    <div class="label">Vegetables</div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card">
+                    <a href="https://www.bigbasket.com/" target="_blank">
+                        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-fruits_480_250923.jpg">
+                    </a>
+                    <div class="label">Fruits</div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card">
+                    <a href="https://www.bigbasket.com/" target="_blank">
+                        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg">
+                    </a>
+                    <div class="label">Rice & Staples</div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card">
+                    <a href="https://www.bigbasket.com/" target="_blank">
+                        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg">
+                    </a>
+                    <div class="label">Detergents</div>
+                </div>
+            </td>
         </tr>
+
         <tr>
             <td>
-                <a href="https://www.bigbasket.com/" target="_blank">
-                    <img src="https://www.bbassets.com/media/uploads/p/m/10000067_27-fresho-capsicum-green.jpg?tr=w-154,q-80" alt="capsicu green" width="200px" height="200px">
-                </a>
+                <div class="card">
+                    <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/41M12E3tA+L.AC_SX250.jpg">
+                    </a>
+                    <div class="label">Gourmet</div>
+                </div>
             </td>
+
             <td>
-                <a href="https://www.bigbasket.com/"target="_blank">
-                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-fruits_480_250923.jpg?tr=w-480,q-80" alt="Fresh Fruites" width="200px" height="100px">
-                </a>
+                <div class="card">
+                    <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/41ZlzZeJlwL._SY300_SX300_QL70_FMwebp_.jpg">
+                    </a>
+                    <div class="label">Fresh Items</div>
+                </div>
             </td>
-            <td> 
-                <a href="https://www.bigbasket.com/" target="_blank">
-                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-480,q-80" alt=" rice" width="200px" height="100px">
-                </a>
-            </td>
+
             <td>
-                <a href="https://www.bigbasket.com/" target="_blank">
-                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-480,q-80" alt="detergent" width="200px" height="100px">
-                </a>
+                <div class="card">
+                    <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/71jnwIufUcL._SX679_.jpg">
+                    </a>
+                    <div class="label">Rice</div>
+                </div>
             </td>
-        </tr>
-        <tr>
+
             <td>
-                <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031"   target="_blank">
-                    <img src="https://m.media-amazon.com/images/I/41M12E3tA+L.AC_SX250.jpg" alt="glory" width="100px" height="100px">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
-                    <img src="https://m.media-amazon.com/images/I/41ZlzZeJlwL._SY300_SX300_QL70_FMwebp_.jpg" alt="Fresh Fruits" width="100px" height="100px">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
-                    <img src="https://m.media-amazon.com/images/I/71jnwIufUcL._SX679_.jpg" alt="Rice" width="100px" height="100px">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
-                    <img src="https://m.media-amazon.com/images/I/711ZYkWNDmL._AC_UL480_QL65_.jpg" alt="detrgents" width="100px" height="100px">
-                </a>
+                <div class="card">
+                    <a href="https://www.amazon.in/Gourmet-Specialty-Foods/b?ie=UTF8&node=2454178031" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/711ZYkWNDmL._AC_UL480_QL65_.jpg">
+                    </a>
+                    <div class="label">Cleaning</div>
+                </div>
             </td>
         </tr>
     </table>
+
 </body>
 </html>
